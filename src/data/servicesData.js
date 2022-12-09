@@ -4,23 +4,18 @@ import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
 import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
 
- 
 
 export const servicesData = [
-    // {
-    //     id: 1,
-    //     title: 'Marketing',
-    //     icon: <BiShoppingBag/>
-    // },
+   
     {
         id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
+        title: 'Ecommerce',
+        icon: <BiShoppingBag/>
     },
     {
         id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
+        title: 'Portfolio',
+        icon: <FaChalkboardTeacher />
     },
     // {
     //     id: 4,
@@ -35,12 +30,12 @@ export const servicesData = [
 
     {
         id: 6,
-        title: 'Web Design',
-        icon: <BsCodeSlash />
+        title: 'CMS',
+        icon: <BsClipboardData />
     },
     {
         id: 7,
-        title: 'Photography',
+        title: 'Booking',
         icon: <FaCameraRetro />
     },
     // {
@@ -48,11 +43,8 @@ export const servicesData = [
     //     title: 'Pinterest Virtual Assistant',
     //     icon: <FaPinterest />
     // }, 
-    {
-        id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
-    },
+   
+    
     // {
     //     id: 10,
     //     title: 'Data Entry', 
@@ -60,7 +52,7 @@ export const servicesData = [
     // },
     {
         id: 11,
-        title: 'Ebook Writing',
+        title: 'UI design',
         icon: <FaTabletAlt />
     },
     // {
@@ -68,11 +60,7 @@ export const servicesData = [
     //     title: 'Audio Transcription',
     //     icon: <AiFillAudio />
     // },
-    {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
-    },
+   
 
 ]
 

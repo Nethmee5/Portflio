@@ -72,9 +72,9 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
-import canva from '../assets/svg/skills/canva.svg'
-// import mui from '../assets/svg/skills/mui.svg'
+import mui from '../assets/svg/skills/mui.png'
+import node from '../assets/svg/skills/node.png'
+import rest from '../assets/svg/skills/rest.png'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -225,14 +225,12 @@ export const skillsImage = (skill) => {
             return unity;
         case 'wolframalpha':
             return wolframalpha;
-        // case 'mui':
-        //     return mui;
-        // case 'canva':
-        //     return canva;   
-        // case 'canva':
-        //     return canva; 
-        // case 'canva':
-        //     return canva; 
+        case 'node':
+            return node;
+        case 'rest':
+            return rest;
+        case 'mui':
+            return mui;
             
         default:
             break;

@@ -17,10 +17,10 @@ function Main() {
             <Skills />
             <Experience />
             <Projects />
-            <Achievement />
+            {/* <Achievement /> */}
             <Services />
             <Testimonials />
-            <Blog />
+            {/* <Blog /> */}
             <Contacts />
             <Footer />
         </div>

@@ -11,9 +11,9 @@ import boy3 from '../assets/svg/testimonials/boy3.svg'
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
+        name: 'Savindu Pasintha',
+        title: 'Software developer',
+        text: "She has a good skill of frontend development as I worked with her in same company",
         image: boy2
     },
     {

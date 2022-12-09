@@ -19,7 +19,7 @@ function Services() {
                     </div>
                     <div className="services-body">
                         <p style={{color:theme.tertiary80}}>
-                            These are some of the services I offer. Reach out to me if I can help you with any!
+                            I will do web development in any areas along with below titles and together with UI/UX design.
                         </p>
                         <div className="services-bodycontainer">
                             {servicesData.map(services => (
