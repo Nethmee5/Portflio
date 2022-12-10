@@ -13,7 +13,7 @@ export const testimonialsData = [
         id: 1,
         name: 'Savindu Pasintha',
         title: 'Software developer',
-        text: "She has a good skill of frontend development as I worked with her in same company",
+        text: "She has a good skill of frontend development as I worked with her in same company,She will beat ahead!",
         image: boy2
     },
     {
