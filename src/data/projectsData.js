@@ -1,11 +1,10 @@
 import building from '../assets/jpg/building.jpg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
+import irrigation from '../assets/svg/projects/irrigation.PNG'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import booking from '../assets/svg/projects/booking.PNG'
+import insure from '../assets/svg/projects/insure.PNG'
+
 
 export const projectsData = [
     {
@@ -15,7 +14,7 @@ export const projectsData = [
         tags: ['React js', 'springboot', 'AR.js','MySQL'],
         code: 'https://github.com/Nethmee5/Augmented-Reality-web-application',
         demo: 'https://augmented-reality-web-application-zewf.vercel.app/',
-        image: building
+        image: irrigation
     },
     {
         id: 2,
@@ -23,8 +22,8 @@ export const projectsData = [
         projectDesc: 'This project is a insuarance website where people can make insure their belongings easily. It has multiple pages to serve for users.',
         tags: ['React js', 'Gatsby','javascript','scss','html'],
         code: 'https://github.com/Nethmee5/Insuarance-web-application',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
+        demo: 'https://inmelk.netlify.app/blogs/',
+        image: insure
     },
     {
         id: 3,
@@ -33,7 +32,7 @@ export const projectsData = [
         tags: ['React js', 'CSS', 'Javascript','html','mui','boostrap'],
         code: 'https://github.com/Nethmee5/React-Booking-app',
         demo: 'https://app-booking.vercel.app/',
-        image: six
+        image: booking
     },
     {
         id: 4,
@@ -46,15 +45,22 @@ export const projectsData = [
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
+        projectName: 'Food product selling App',
         projectDesc: 'A Simple E-commerce application',
         tags: ['React js', 'javascript','css','html'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         image: five
     },
-    
-   
+    {
+        id: 6,
+        projectName: 'Sunglasses selling app',
+        projectDesc: 'E-commerce web application where can select and buy sunglasses as in ebay.(Build for Oscar-wilee company.)',
+        tags: ['React js', 'javascript','css','html','boostrap'],
+        code: 'https://github.com/Nethmee5/Oscar-wilee-e-commerce-project',
+        demo: 'https://oscar-wilee-e-commerce-project.vercel.app/',
+        image: five
+    }
 ]
 
 
