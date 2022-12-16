@@ -4,7 +4,7 @@ import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
 import booking from '../assets/svg/projects/booking.PNG'
 import insure from '../assets/svg/projects/insure.PNG'
-
+import vps from '../assets/svg/projects/vps.PNG'
 
 export const projectsData = [
     {
@@ -16,6 +16,7 @@ export const projectsData = [
         demo: 'https://augmented-reality-web-application-zewf.vercel.app/',
         image: irrigation
     },
+
     {
         id: 2,
         projectName: 'InsureMe Website',
@@ -25,6 +26,16 @@ export const projectsData = [
         demo: 'https://inmelk.netlify.app/blogs/',
         image: insure
     },
+    {
+        id: 2,
+        projectName: 'VPS petrollium web application',
+        projectDesc: 'Petrollium managment web application distributing to different countries.',
+        tags: ['React js',' Nodejs','javascript','scss','html'],
+        code: 'https://github.com/Nethmee5/Insuarance-web-application',
+        demo: ' https://vpscpdev.z6.web.core.windows.net/dashboard',
+        image: vps
+    },
+   
     {
         id: 3,
         projectName: 'Booking web App',
